@@ -1,0 +1,80 @@
+body{
+    font-family: 'poppins';
+    font-size: 20px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: rgb(59, 108, 233);
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    gap: 4px;
+    text-align: center;
+    padding: 3px;
+    margin-top: 1%;
+}
+nav > li{
+    margin-top: 1%;
+}
+nav button{
+    border-radius: 25px;
+    background-color: rgb(221, 61, 61);
+    color: white;
+    /* width: 8%; */
+    font-size: medium;
+    /* position: relative; */
+}
+/* .navbar navbar-expand-lg bg-body-tertiary{
+    /* display: none; */
+    /* display: flex; */
+    /* justify-content: left; */
+    /* text-align: left; */
+
+/* Navbar Styling */
+.navbar {
+    background-color: #336df3; /* Light background */
+    padding: 15px;
+}
+
+.navbar-brand img {
+    height: 50px; /* Adjust logo size */
+}
+
+.navbar-nav .nav-link {
+    color: #fffcfc;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Highlight color on hover */
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.nav-item {
+    
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); /* Adjust for visibility */
+}
+
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+}
